@@ -1,5 +1,4 @@
 dependencies:
-  '@pnpm/lifecycle': 'link:../__package_previews__/lifecycle/@pnpm/lifecycle'
   '@pnpm/types': 1.7.0
   npm-lifecycle: 2.0.1
   path-exists: 3.0.0
@@ -9,7 +8,7 @@ devDependencies:
   '@pnpm/logger': 1.0.1
   '@types/tape': 4.2.32
   json-append: 1.1.1
-  load-json-file: 4.0.0
+  load-json-file: 5.0.0
   mos: 2.0.0-alpha.3
   mos-plugin-readme: 1.0.4
   package-preview: 1.0.5
@@ -1656,6 +1655,17 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-L19Fq5HjMhYjT9U62rZo607AmTs=
+  /load-json-file/5.0.0:
+    dependencies:
+      graceful-fs: 4.1.11
+      parse-json: 4.0.0
+      pify: 3.0.0
+      strip-bom: 3.0.0
+    dev: true
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-wWRJeA/YQ2s53fBSrPrr6gnSKmNcnk4TV4c40ITRGQ4uxpgPddBL9xNh3WxPjJHewwzo2rFkEJWt87OR/35MEw==
   /locate-path/2.0.0:
     dependencies:
       p-locate: 2.0.0
@@ -3530,7 +3540,7 @@ specifiers:
   '@pnpm/types': ^1.7.0
   '@types/tape': ^4.2.31
   json-append: ^1.1.1
-  load-json-file: ^4.0.0
+  load-json-file: ^5.0.0
   mos: ^2.0.0-alpha.3
   mos-plugin-readme: ^1.0.4
   npm-lifecycle: ^2.0.1
