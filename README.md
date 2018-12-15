@@ -1,3 +1,5 @@
+> this package has been moved to the pnpm monorepo https://github.com/pnpm/pnpm
+
 # @pnpm/lifecycle
 
 > Package lifecycle hook runner
